@@ -5,6 +5,16 @@ VisualStudioVersion = 15.0.28307.489
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebsiteTinTuc2", "WebsiteTinTuc2\WebsiteTinTuc2.csproj", "{38D16BD6-D215-42B3-99A4-902FB9947702}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Web", "1.Web", "{87640B05-EF87-498A-B2BA-173348B4D618}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Services", "2.Services", "{10612B7F-E2F0-4432-8A4D-7E3A0960692D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Data", "3.Data", "{BA53961B-AE5E-4E45-B489-968C0B603784}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebTinTuc.Data", "WebTinTuc.Data\WebTinTuc.Data.csproj", "{4008BDF1-4219-4A4E-98F7-636D67495678}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Cross", "4.Cross", "{51B609FD-5638-43E0-816E-C7B769997127}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +25,17 @@ Global
 		{38D16BD6-D215-42B3-99A4-902FB9947702}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38D16BD6-D215-42B3-99A4-902FB9947702}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38D16BD6-D215-42B3-99A4-902FB9947702}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4008BDF1-4219-4A4E-98F7-636D67495678}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4008BDF1-4219-4A4E-98F7-636D67495678}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4008BDF1-4219-4A4E-98F7-636D67495678}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4008BDF1-4219-4A4E-98F7-636D67495678}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{38D16BD6-D215-42B3-99A4-902FB9947702} = {87640B05-EF87-498A-B2BA-173348B4D618}
+		{4008BDF1-4219-4A4E-98F7-636D67495678} = {BA53961B-AE5E-4E45-B489-968C0B603784}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4FEFB805-1782-4E7F-BEDB-4516CC38BAE5}
